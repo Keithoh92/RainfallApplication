@@ -11,12 +11,15 @@ public class WeatherHttpClient {
     //API call
     private static String BASE_URL = "https://api.openweathermap.org/data/2.5/forecast?q=";
     private static String IMG_URL = "http://openweathermap.org/img/w/";
-    private static String APPID = "690b092c070a048cdfb08abdd36da849";
+    ///////////////////////////
+    ///////////////API key code goes here//////////////////////
 
     public String getWeatherData(String location) {
         HttpURLConnection con = null;
         InputStream is = null;
         try {
+            ///////////////Need API code for app to work////////////////////////////////////
+            ///////////////Taken out for github repo/////////////////////////////
             con = (HttpURLConnection) (new URL(BASE_URL + location + "&APPID=" + APPID)).openConnection();
             con.setRequestMethod("GET");
             con.setDoInput(true);
