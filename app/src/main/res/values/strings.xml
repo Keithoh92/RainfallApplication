@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Rainfall</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="locations_header">Location</string>
+    <string name="forecasts_header">Forecast Notification Alerts</string>
+
+    <!-- Location Preferences -->
+    <string name="myLocation_title">Use my location</string>
+    <string name="town_title">Choose Town</string>
+
+    <!-- Forecast Preferences -->
+    <string name="range_title">Forecast Day Range(Set No. of days)</string>
+    <string name="alerts_title">Forecast Threshold Alerts(Millimeters)</string>
+    <string name="title_activity_my_location">MyLocation</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="LocationService">service_label</string>
+    <string name="channel_name">my_notification_channel</string>
+    <string name="channel_description">notification_settings</string>
+
+</resources>

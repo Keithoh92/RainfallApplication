@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/locations_header">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="myLocation"
+            android:summaryOn="true"
+            android:title="@string/myLocation_title"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="Choose town"
+            app:entries="@array/pref_cities_entries"
+            app:entryValues="@array/pref_cities_values"
+            app:key="town"
+            app:title="@string/town_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/forecasts_header" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_forecast_range_entries"
+        android:entryValues="@array/pref_forecast_range_values"
+        android:key="range"
+        android:title="@string/range_title"
+        app:useSimpleSummaryProvider="true" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_threshold_entries"
+        android:entryValues="@array/pref_threshold_values"
+        android:key="alerts"
+        android:title="@string/alerts_title"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>

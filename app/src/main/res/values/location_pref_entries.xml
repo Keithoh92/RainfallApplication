@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_cities_entries">
+        <item>Tallaght</item>
+        <item>Dun Laoghaire</item>
+        <item>Swords</item>
+        <item>Leixlip</item>
+        <item>Ashbourne</item>
+        <item>Naas</item>
+        <item>Portlaoise</item>
+        <item>Carlow</item>
+        <item>Dunshaughlin</item>
+        <item>Edenderry</item>
+        <item>Blackrock</item>
+    </string-array>
+
+    <string-array name="pref_cities_values">
+        <item>Tallaght</item>
+        <item>Dun Laoghaire</item>
+        <item>Swords</item>
+        <item>Leixlip</item>
+        <item>Ashbourne</item>
+        <item>Naas</item>
+        <item>Portlaoise</item>
+        <item>Carlow</item>
+        <item>Dunshaughlin</item>
+        <item>Edenderry</item>
+        <item>Blackrock</item>
+    </string-array>
+
+
+</resources>
